@@ -1,0 +1,36 @@
+title: Bjerred 1900
+description: Bjärreds historia innan och efter året 1900.
+theme: just-the-docs
+
+url: https://bjerred1900.github.io/
+
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+plugins:
+  - jekyll-wikirefs
+  - jekyll-readme-index
+
+wikilinks:
+  attributes:
+    enabled: true
+  css:
+    exclude: []
+    name:
+      typed: "typed"
+      wiki: "wiki-link"
+      web: "web-link"
+      invalid_wiki: "invalid-wiki-link"
+      embed_container: "embed-container"
+      embed_title: "embed-title"
+      embed_content: "embed-content"
+      embed_link: "embed-wiki-link"
+      embed_image_container: "embed-image-container"
+      embed_image: "embed-image"
+  enabled: true
+  exclude: []
+
+readme_index:
+  enabled:          true
+  remove_originals: true
+  with_frontmatter: false
